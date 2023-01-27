@@ -31,7 +31,7 @@ ser = serial.Serial(
   timeout=1
 )
 """
-
+# will this work???
 font = QFont('Arial', 90)
 
 
@@ -77,7 +77,7 @@ class Window(QWidget):
         layout.addLayout(layout2)
 
         self.graph = GraphWindow()
-        layout2.addWidget(self.graph.graphWidget, 1, 1)
+        layout2.addWidget(self.graph.graphWidget, 0, 1)
 
         self.f_limit = QLabel('Front limit switch not hit')
         self.f_limit.setFont(font)
