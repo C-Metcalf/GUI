@@ -50,7 +50,6 @@ class MainWindow(QMainWindow):
         self.t = SubWindow()
         self.p = PresetWindow()
 
-
         menu_bar = self.menuBar()
         file_menu = menu_bar.addMenu('&File')
         edit_menu = menu_bar.addMenu('&Edit')
@@ -78,7 +77,7 @@ class Window(QWidget):
         layout.addLayout(layout2)
 
         self.graph = GraphWindow()
-        layout2.addWidget(self.graph.graphWidget, 1, 0)
+        layout2.addWidget(self.graph.graphWidget, 1, 2)
 
         self.f_limit = QLabel('Front limit switch not hit')
         self.f_limit.setFont(font)

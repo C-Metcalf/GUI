@@ -1,4 +1,3 @@
-import pyqtgraph
 from PyQt6.QtWidgets import (
     QWidget,
     QApplication,
