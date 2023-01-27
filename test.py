@@ -32,7 +32,7 @@ ser = serial.Serial(
 )
 """
 
-font = QFont('Arial', 10)
+font = QFont('Arial', 30)
 
 
 class Commands(Enum):
